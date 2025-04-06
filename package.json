@@ -7,7 +7,7 @@
     "build": "pnpm -r run build",
     "dev:service": "pnpm --filter service dev",
     "dev:admin": "pnpm --filter admin dev",
-    "build:ui": "pnpm --filter @your-scope/ui build"
+    "build:ui": "pnpm --filter @hyoyoon/ui build"
   },
   "keywords": [],
   "author": "",
