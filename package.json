@@ -7,7 +7,12 @@
     "build": "pnpm -r run build",
     "dev:service": "pnpm --filter service dev",
     "dev:admin": "pnpm --filter admin dev",
-    "build:ui": "pnpm --filter @hyoyoon/ui build"
+    "build:ui": "pnpm --filter @hyoyoon/ui build",
+    "storybook:service": "pnpm --filter service storybook dev -p 6006",
+    "storybook:admin": "pnpm --filter admin storybook dev -p 6007",
+    "test": "pnpm -r test",
+    "test:service": "pnpm --filter service test",
+    "test:admin": "pnpm --filter admin test"
   },
   "keywords": [],
   "author": "",
