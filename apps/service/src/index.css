@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+/* https://oklch.com/#0.7,0.1,253,100 */
+/* https://tailwindcss.com/docs/theme */
+/* https://tailwindcss.com/docs/functions-and-directives */
+/* https://v2.tailwindcss.com/docs/gradient-color-stops */
+
+@theme {
+  --color-neutral-black: oklch(0 0 0);
+  --color-neutral-white: oklch(1 0 0);
+  --color-primary-blue: oklch(0.47 0.2985 264.26);
+  --color-lightblue: oklch(0.94 0.0304 265.33);
+
+  --color-blue-purple-from: oklch(0.47 0.2985 264.26);
+  --color-blue-purple-to: oklch(0.59 0.299256 307.9);
+}
+
+.bg-blue-to-purple {
+  @apply bg-gradient-to-r from-blue-purple-from to-blue-purple-to;
+}
+
+.set-center {
+  @apply flex items-center justify-center;
+}
+
+.hover-scale-ani {
+  @apply transition-transform duration-200 hover:scale-105;
+}
