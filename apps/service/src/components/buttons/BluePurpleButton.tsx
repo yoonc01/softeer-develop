@@ -15,7 +15,7 @@ function BluePurpleButton({
   return (
     <BaseButton
       onClick={onClick}
-      className="bg-blue-to-purple"
+      className="text-neutral-white bg-blue-to-purple"
       disabled={disabled}
     >
       {children}

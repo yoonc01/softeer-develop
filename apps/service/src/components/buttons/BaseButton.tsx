@@ -16,7 +16,7 @@ function BaseButton({
   return (
     <button
       onClick={onClick}
-      className={`${className} ${disabled ? "opacity-30 cursor-default" : "opacity-100 hover-scale-ani"} set-center rounded-full text-neutral-white cursor-pointer`}
+      className={`${disabled ? "opacity-30 cursor-default" : "opacity-100 hover-scale-ani"} set-center rounded-full cursor-pointer ${className}`}
       disabled={disabled}
     >
       {children}

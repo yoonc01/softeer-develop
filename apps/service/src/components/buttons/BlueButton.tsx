@@ -11,7 +11,7 @@ function BlueButton({ onClick, disabled = false, children }: BlueButtonProps) {
   return (
     <BaseButton
       onClick={onClick}
-      className="bg-primary-blue"
+      className="text-neutral-white bg-primary-blue"
       disabled={disabled}
     >
       {children}
