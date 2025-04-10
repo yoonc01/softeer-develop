@@ -5,14 +5,15 @@ import WhiteButton from "@/components/buttons/WhiteButton";
 describe("WhiteButton", () => {
   test("renders children correctly", () => {
     render(<WhiteButton onClick={() => {}}>Test</WhiteButton>);
-    const button = screen.getByText("Test");
+    const button = screen.getByRole("button", { name: "Test" });
     expect(button).toBeInTheDocument();
   });
 
   test("calls onClick when clicked", () => {
     const handleClick = jest.fn();
     render(<WhiteButton onClick={handleClick}>Click Me</WhiteButton>);
-    fireEvent.click(screen.getByText("Click Me"));
+    const button = screen.getByRole("button", { name: "Click Me" });
+    fireEvent.click(button);
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
@@ -23,13 +24,14 @@ describe("WhiteButton", () => {
         Disabled
       </WhiteButton>,
     );
-    fireEvent.click(screen.getByText("Disabled"));
+    const button = screen.getByRole("button", { name: "Disabled" });
+    fireEvent.click(button);
     expect(handleClick).not.toHaveBeenCalled();
   });
 
-  test("applies bg-blue-to-purple class", () => {
-    render(<WhiteButton onClick={() => {}}>Color Check</WhiteButton>);
-    const button = screen.getByText("Color Check");
-    expect(button).toHaveClass("bg-neutral-white");
+  test("applies bg-neutral-white and text-neutral-black class", () => {
+    render(<WhiteButton onClick={() => {}}>white and black!</WhiteButton>);
+    const button = screen.getByRole("button", { name: "white and black!" });
+    expect(button).toHaveClass("bg-neutral-white", "text-neutral-black");
   });
 });
