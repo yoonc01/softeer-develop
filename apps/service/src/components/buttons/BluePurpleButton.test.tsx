@@ -5,14 +5,15 @@ import BluePurpleButton from "@/components/buttons/BluePurpleButton";
 describe("BluePurpleButton", () => {
   test("renders children correctly", () => {
     render(<BluePurpleButton onClick={() => {}}>Test</BluePurpleButton>);
-    const button = screen.getByText("Test");
+    const button = screen.getByRole("button", { name: "Test" });
     expect(button).toBeInTheDocument();
   });
 
   test("calls onClick when clicked", () => {
     const handleClick = jest.fn();
     render(<BluePurpleButton onClick={handleClick}>Click Me</BluePurpleButton>);
-    fireEvent.click(screen.getByText("Click Me"));
+    const button = screen.getByRole("button", { name: "Click Me" });
+    fireEvent.click(button);
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
@@ -23,13 +24,20 @@ describe("BluePurpleButton", () => {
         Disabled
       </BluePurpleButton>,
     );
-    fireEvent.click(screen.getByText("Disabled"));
+    const button = screen.getByRole("button", { name: "Disabled" });
+    fireEvent.click(button);
     expect(handleClick).not.toHaveBeenCalled();
   });
 
-  test("applies bg-blue-to-purple class", () => {
-    render(<BluePurpleButton onClick={() => {}}>Color Check</BluePurpleButton>);
-    const button = screen.getByText("Color Check");
-    expect(button).toHaveClass("bg-blue-to-purple");
+  test("applies bg-blue-to-purple and text-neutral-white class", () => {
+    render(
+      <BluePurpleButton onClick={() => {}}>
+        BluePurple and white!
+      </BluePurpleButton>,
+    );
+    const button = screen.getByRole("button", {
+      name: "BluePurple and white!",
+    });
+    expect(button).toHaveClass("bg-blue-to-purple", "text-neutral-white");
   });
 });
