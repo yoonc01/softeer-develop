@@ -23,7 +23,11 @@
 
 ### 📚 WIKI
 
-- [Monorepo와 pnpm 선택 이유](https://github.com/yoonc01/softeer-develop/wiki/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC%EC%99%80-pnpm-%EC%84%A0%ED%83%9D-%EB%B0%B0%EA%B2%BD)
+- [모노레포 관련 기술 개념 정리](https://github.com/yoonc01/softeer-develop/wiki/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
+
+- [모노레포와 pnpm 선택 배경](https://github.com/yoonc01/softeer-develop/wiki/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC%EC%99%80-pnpm-%EC%84%A0%ED%83%9D-%EB%B0%B0%EA%B2%BD)
+
+- [tailwind css v4가 나왔다!](https://github.com/yoonc01/softeer-develop/wiki/tailwindcss-config-VS-tailwindcss-theme,-apply)
 
 ---
 
