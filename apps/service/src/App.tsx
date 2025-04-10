@@ -1,5 +1,7 @@
 function App() {
-  return <div>hello</div>;
+  return (
+    <div className="bg-blue-to-purple text-heading-banner-title">hello</div>
+  );
 }
 
 export default App;

@@ -1,0 +1,124 @@
+/* src/styles/text-style.css */
+
+.text-heading-banner-title {
+  @apply text-[88px] leading-[100px] font-bold;
+}
+
+.text-heading-banner-title-2 {
+  @apply text-[80px] leading-[90px] font-bold;
+}
+
+.text-heading-banner-title-3 {
+  @apply text-[72px] leading-[80px] font-bold;
+}
+
+.text-heading-1-bold {
+  @apply text-[48px] leading-[70px] font-bold;
+}
+.text-heading-1-semibold {
+  @apply text-[48px] leading-[70px] font-semibold;
+}
+.text-heading-1-medium {
+  @apply text-[48px] leading-[70px] font-medium;
+}
+.text-heading-1-regular {
+  @apply text-[48px] leading-[70px] font-normal;
+}
+
+.text-heading-2-bold {
+  @apply text-[44px] leading-[70px] font-bold;
+}
+.text-heading-2-semibold {
+  @apply text-[44px] leading-[70px] font-semibold;
+}
+.text-heading-2-medium {
+  @apply text-[44px] leading-[70px] font-medium;
+}
+.text-heading-2-regular {
+  @apply text-[44px] leading-[70px] font-normal;
+}
+
+.text-heading-3-bold {
+  @apply text-[40px] leading-[70px] font-bold;
+}
+.text-heading-3-semibold {
+  @apply text-[40px] leading-[70px] font-semibold;
+}
+.text-heading-3-medium {
+  @apply text-[40px] leading-[70px] font-medium;
+}
+.text-heading-3-regular {
+  @apply text-[40px] leading-[70px] font-normal;
+}
+
+.text-body-1-bold {
+  @apply text-[36px] leading-[54px] font-bold;
+}
+.text-body-1-semibold {
+  @apply text-[36px] leading-[54px] font-semibold;
+}
+.text-body-1-medium {
+  @apply text-[36px] leading-[54px] font-medium;
+}
+.text-body-1-regular {
+  @apply text-[36px] leading-[54px] font-normal;
+}
+
+.text-body-2-bold {
+  @apply text-[32px] leading-[54px] font-bold;
+}
+.text-body-2-semibold {
+  @apply text-[32px] leading-[54px] font-semibold;
+}
+.text-body-2-medium {
+  @apply text-[32px] leading-[54px] font-medium;
+}
+.text-body-2-regular {
+  @apply text-[32px] leading-[54px] font-normal;
+}
+
+.text-body-3-bold {
+  @apply text-[28px] leading-[54px] font-bold;
+}
+.text-body-3-semibold {
+  @apply text-[28px] leading-[54px] font-semibold;
+}
+.text-body-3-medium {
+  @apply text-[28px] leading-[54px] font-medium;
+}
+.text-body-3-regular {
+  @apply text-[28px] leading-[54px] font-normal;
+}
+
+.text-detail-1-bold {
+  @apply text-[24px] leading-[36px] font-bold;
+}
+.text-detail-1-semibold {
+  @apply text-[24px] leading-[36px] font-semibold;
+}
+.text-detail-1-medium {
+  @apply text-[24px] leading-[36px] font-medium;
+}
+.text-detail-1-regular {
+  @apply text-[24px] leading-[36px] font-normal;
+}
+
+.text-detail-2-bold {
+  @apply text-[20px] leading-[32px] font-bold;
+}
+.text-detail-2-semibold {
+  @apply text-[20px] leading-[32px] font-semibold;
+}
+.text-detail-2-medium {
+  @apply text-[20px] leading-[32px] font-medium;
+}
+.text-detail-2-regular {
+  @apply text-[20px] leading-[32px] font-normal;
+}
+
+.text-detail-3-semibold {
+  @apply text-[16px] leading-[20px] font-semibold;
+}
+.text-detail-3-regular {
+  @apply text-[16px] leading-[20px] font-normal;
+}
