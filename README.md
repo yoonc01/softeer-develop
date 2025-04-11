@@ -27,7 +27,7 @@
 
 - [모노레포와 pnpm 선택 배경](https://github.com/yoonc01/softeer-develop/wiki/%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC%EC%99%80-pnpm-%EC%84%A0%ED%83%9D-%EB%B0%B0%EA%B2%BD)
 
-- [tailwind css v4가 나왔다!](https://github.com/yoonc01/softeer-develop/wiki/tailwindcss-config-VS-tailwindcss-theme,-apply)
+- [Tailwind CSS v4 스타일링 전략: config.js, @apply, 그리고 @theme](https://github.com/yoonc01/softeer-develop/wiki/Tailwind-CSS-v4-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81-%EC%A0%84%EB%9E%B5:-config.js,-@apply,-%EA%B7%B8%EB%A6%AC%EA%B3%A0-@theme)
 
 ---
 
