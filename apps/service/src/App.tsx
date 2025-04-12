@@ -1,6 +1,8 @@
 function App() {
   return (
-    <div className="bg-blue-to-purple text-heading-banner-title">hello</div>
+    <div className="bg-gradient-blue-purple text-heading-banner-title">
+      hello
+    </div>
   );
 }
 

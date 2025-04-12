@@ -1,6 +1,8 @@
 @import "tailwindcss";
-@import "./text-styles.css";
 @import "./colors.css";
+@import "./text-styles.css";
+@import "./spacing.css";
+@config "../../tailwind.config.js";
 
 /* https://tailwindcss.com/docs/functions-and-directives */
 /* https://v2.tailwindcss.com/docs/gradient-color-stops */

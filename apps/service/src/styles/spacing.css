@@ -1,0 +1,29 @@
+@theme {
+  --spacing-0: 0px;
+  --spacing-100: 4px;
+  --spacing-200: 8px;
+  --spacing-300: 12px;
+  --spacing-400: 16px;
+  --spacing-500: 20px;
+  --spacing-600: 24px;
+  --spacing-700: 28px;
+  --spacing-800: 32px;
+  --spacing-900: 36px;
+  --spacing-1000: 40px;
+  --spacing-1100: 44px;
+  --spacing-1200: 48px;
+  --spacing-1300: 52px;
+  --spacing-1400: 56px;
+  --spacing-1500: 60px;
+  --spacing-1600: 64px;
+  --spacing-1700: 68px;
+  --spacing-1800: 72px;
+  --spacing-1900: 76px;
+  --spacing-2000: 80px;
+  --spacing-2500: 112px;
+  --spacing-2900: 140px;
+  --spacing-3000: 180px;
+  --spacing-4000: 200px;
+  --spacing-5000: 240px;
+  --spacing-6000: 360px;
+}
