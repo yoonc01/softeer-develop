@@ -29,6 +29,10 @@
 
 - [Tailwind CSS v4 스타일링 전략: config.js, @apply, 그리고 @theme](https://github.com/yoonc01/softeer-develop/wiki/Tailwind-CSS-v4-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81-%EC%A0%84%EB%9E%B5:-config.js,-@apply,-%EA%B7%B8%EB%A6%AC%EA%B3%A0-@theme)
 
+### 🔧 주요 PR
+
+- [theme을 이용한 text 설정](https://github.com/yoonc01/softeer-develop/pull/11)
+
 ---
 
 ## 🛠️ 프로젝트 실행 방법 (Clone 후)
